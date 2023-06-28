@@ -4,7 +4,9 @@ import AppNavBar from './AppNavBar.vue';
 
 export default {
     name: "AppHeader",
-    components: { AppNavBar }
+    components: { AppNavBar },
+     
+
 }
 
 
