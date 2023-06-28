@@ -9,21 +9,15 @@
    <div class="flex card-container">
 
     <div class="card-menu margin">
-       <h1>
-        ciaoooooo
-       </h1>
+       <img src="../assets/imgs/skin-on-fries-500x714.jpg" alt="french fries">
     </div>
 
     <div class="card-menu margin">
-      <h1>
-        ciaooooo
-      </h1>
+       <img src="../assets/imgs/choco-cookie-frappe-400x571.jpg" alt="smoothie">
     </div>
 
     <div class="card-menu">
-           <h1>
-            ciaooooo
-           </h1>
+          <img src="../assets/imgs/donut-burger-400x571.jpg" alt="donut burger">
     </div>
 
 
@@ -62,7 +56,7 @@ h1 {
 div.card-menu{
     height: 500px;
     width: calc(100% / 3 - 2rem);
-   background-color: aqua;
+   
    margin-right: 1rem;
 }
 
@@ -78,6 +72,12 @@ div.card-menu{
 .card-container {
     flex-wrap: wrap;
     justify-content: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+     object-fit: contain;
 }
 
 </style>
