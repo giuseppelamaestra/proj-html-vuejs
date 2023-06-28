@@ -30,9 +30,27 @@ export default {
 
    </section>
 
+   <div>
+
+    <img src="../assets/imgs/first-order-background-scaled.jpg" alt="">
+   </div>
+
 
   
   <AppMenuCategories/>
+
+  <div class="food-logo">
+
+    <ul class="flex">
+        <li>Vegetarian</li>
+        <li>Gluten Free</li>
+        <li>Dairy Free</li>
+        <li> Keto Friendly</li>
+    </ul>
+
+
+  </div>
+
   <AppLatestNews/>
 </template>
 
@@ -58,5 +76,15 @@ div.ul-container {
     padding: 2rem;
 }
 
+img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.food-logo {
+    margin-top: 5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 </style>

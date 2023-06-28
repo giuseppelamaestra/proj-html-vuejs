@@ -55,7 +55,7 @@ h1 {
 
 div.card-menu{
     height: 500px;
-    width: calc(100% / 3 - 2rem);
+    width: calc(100% / 3 - 1rem);
    
    margin-right: 1rem;
 }
