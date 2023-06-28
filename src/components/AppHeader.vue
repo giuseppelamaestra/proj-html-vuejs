@@ -1,18 +1,32 @@
 <script>
 
+import AppNavBar from './AppNavBar.vue';
 
 export default {
-  name: 'AppHeader',
+    name: "AppHeader",
+    components: { AppNavBar }
 }
 
 
 </script>
 
 <template>
+
+  <header>
+
+    <div class="container">
+
+      <AppNavBar/>
+
+      
+    </div>
+
+
+
+
+  </header>
  
- <h1>
-   app header
- </h1>
+
 
 </template>
 
