@@ -5,14 +5,13 @@
 }
 
 
-h1 {
-    color: red;
-}
+
 
 .flex {
     display: flex;
 }
 
-.container {
+div.container {
     max-width: 1000px;
-}
+    margin: 0 auto;
+  }

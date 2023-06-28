@@ -17,7 +17,27 @@ export default {
     <div class="container">
 
       <AppNavBar/>
+      
+      <div class="jumbo">
 
+        <h2>
+          Hungry?
+        </h2>
+
+        <h1>
+          Great Food 
+      
+        </h1>
+
+        <h1>
+          Delivered
+        </h1>
+
+        <button>
+          VIEW OUR MENU
+        </button>
+
+      </div>
 
     </div>
 
@@ -38,5 +58,34 @@ export default {
   width: 100%;
   background-size: 100% 850px ;
  }
+
+div.jumbo {
+  margin-top: 8rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 4rem;
+}
+
+button {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+
+
 
 </style>

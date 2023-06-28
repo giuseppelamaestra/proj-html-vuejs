@@ -2,7 +2,7 @@
 
     <nav>
 
-        <img src="" alt="">
+        <img src="../assets/imgs/takeout-logo-2x-200x43.png" alt="logo">
 
           <ul class="flex">
              <li>ciao</li>
@@ -37,5 +37,6 @@ li{
 nav {
     display: flex;
     padding-top: 4rem;
+    justify-content: space-between;
 }
 </style>
