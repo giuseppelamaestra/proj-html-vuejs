@@ -1,14 +1,19 @@
 <template>
 
-    <img src="" alt="">
+    <nav>
 
-    <ul class="flex">
-        <li>ciao</li>
-        <li>ciao</li>
-        <li>ciao</li>
-        <li>ciao</li>
-        <li>ciao</li>
-    </ul>
+        <img src="" alt="">
+
+          <ul class="flex">
+             <li>ciao</li>
+             <li>ciao</li>
+             <li>ciao</li>
+             <li>ciao</li>
+             <li>ciao</li>
+          </ul>
+
+
+    </nav>
 
 
 </template>
@@ -20,5 +25,17 @@ export default {
 </script>
 
 <style lang="scss">
+ul {
+    color: white;
+    list-style-type: none;
+}
 
+li{
+    margin-right: 2rem;
+}
+
+nav {
+    display: flex;
+    padding-top: 4rem;
+}
 </style>
