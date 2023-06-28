@@ -1,8 +1,16 @@
 <template>
 
-    <h2>
-        navbar
-    </h2>
+    <img src="" alt="">
+
+    <ul class="flex">
+        <li>ciao</li>
+        <li>ciao</li>
+        <li>ciao</li>
+        <li>ciao</li>
+        <li>ciao</li>
+    </ul>
+
+
 </template>
 
 <script>

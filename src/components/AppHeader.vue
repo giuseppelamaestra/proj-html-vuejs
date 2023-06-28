@@ -18,7 +18,7 @@ export default {
 
       <AppNavBar/>
 
-      
+
     </div>
 
 
@@ -30,6 +30,10 @@ export default {
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+ 
+ header {
+  background-image: url();
+ }
 
 </style>
