@@ -50,6 +50,13 @@ export default {
 
 
   </div>
+  
+   <div class="ordering-app-jumbo">
+
+   
+   </div>
+
+
 
   <AppLatestNews/>
 </template>
@@ -85,6 +92,14 @@ img {
     margin-top: 5rem;
     max-width: 800px;
     margin: 0 auto;
+}
+
+div.ordering-app-jumbo{
+    background-image: url('../assets/imgs/app-ordering-scaled.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: 100% 500px;
+    margin-top: 4rem;
 }
 
 </style>
