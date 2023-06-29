@@ -18,10 +18,10 @@ export default {
      
      <div class="ul-container">
         <ul class="flex">
-           <li>ciao</li>
-           <li>ciao</li>
-           <li>ciao</li>
-           <li>ciao</li>
+           <li>24/7 DELIVERY</li>
+           <li>OVER 100 DISHES</li>
+           <li>IN APP ORDERING</li>
+           <li>FAST DELIVERY</li>
         </ul>
      </div>
 

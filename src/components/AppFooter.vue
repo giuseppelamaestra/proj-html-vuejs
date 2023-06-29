@@ -2,6 +2,19 @@
 
 export default {
     name : 'AppFooter',
+
+    data(){
+      return {
+         orderList : [  "Appetizers",
+                        "Burgers",
+                         "Pizza",
+                        "Fries",
+                         "Sides",
+                       "Desserts",
+                         "Beverages",
+                           "Specials",]
+      }
+    }
 }
 </script>
 
@@ -13,67 +26,53 @@ export default {
              <li>
                 <h3>Order Online</h3>
              </li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
+             <li v-for="order in orderList">
+              
+               {{ order }}
+
+             </li>
+        
          </ul>
          <ul>
             <li>
                 <h3>Navigate</h3>
              </li>
-            <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
+            <li v-for="navigate in navigateList">
+               {{ navigate }}
+            </li>
+          
          </ul>
          <ul>
             <li>
                 <h3>Information</h3>
              </li>
-            <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
+            <li v-for="information in informationList">
+               {{ information }}
+            </li>
+          
          </ul>
          <ul>
             <li>
                 <h3>Opening Hours</h3>
              </li>
-            <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
+            <li v-for="hours in hoursList">
+               {{ hours }}
+
+            </li>
+          
          </ul>
          <ul>
 
             <li>
                 <h3>Voucher</h3>
              </li>
-            <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
+            <li v-for="voucher in voucherList">
+               
+               {{ voucher }}
+
+
+            </li>
+            
          </ul>
 
 

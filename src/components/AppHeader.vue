@@ -26,7 +26,7 @@ export default {
           Hungry?
         </h2>
 
-        <h1>
+        <h1 class="yellow">
           Great Food 
       
         </h1>
@@ -69,15 +69,19 @@ div.jumbo {
 h1 {
   font-size: 5rem;
   color: white;
+  margin-bottom: 1rem;
 }
 
 h2 {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 
-
+.yellow {
+  color: yellow;
+}
 
 
 

@@ -5,11 +5,10 @@
         <img src="../assets/imgs/takeout-logo-2x-200x43.png" alt="logo">
 
           <ul class="flex">
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
-             <li>ciao</li>
+             <li v-for="element in elementList">
+                {{ element }}
+             </li>
+             
           </ul>
 
 
@@ -20,8 +19,23 @@
 
 <script>
 export default {
-    name: 'AppNavBar'
+    name: 'AppNavBar',
+
+
+    data() {
+    return {
+      elementList : [
+      "Home", "Order", "Online", "About", "News", "Contact Us",
+      ],
+      
+    }
+   },
 }
+
+
+
+
+
 </script>
 
 <style lang="scss">
