@@ -24,7 +24,9 @@ export default {
 
         hoursList : ["Mon - 10AM to 11PM", "Tue - 10AM to 11PM","Wen - 10AM to 11PM","Thu - 10AM to 11PM","Fri - 10AM to 11PM",
         "Sat - 10AM to 11PM","Sun - 10AM to 11PM",
-      ]
+      ],
+
+       voucherList : []
 
 
       }
@@ -40,7 +42,7 @@ export default {
              <li>
                 <h3>Order Online</h3>
              </li>
-             <li v-for="order in orderList">
+             <li v-for="order in orderList" class="m-top">
               
                {{ order }}
 
@@ -51,7 +53,7 @@ export default {
             <li>
                 <h3>Navigate</h3>
              </li>
-            <li v-for="navigate in navigateList">
+            <li v-for="navigate in navigateList" class="m-top">
                {{ navigate }}
             </li>
           
@@ -60,7 +62,7 @@ export default {
             <li>
                 <h3>Information</h3>
              </li>
-            <li v-for="information in informationList">
+            <li v-for="information in informationList" class="m-top">
                {{ information }}
             </li>
           
@@ -69,7 +71,7 @@ export default {
             <li>
                 <h3>Opening Hours</h3>
              </li>
-            <li v-for="hours in hoursList">
+            <li v-for="hours in hoursList" class="m-top">
                {{ hours }}
 
             </li>
@@ -80,7 +82,7 @@ export default {
             <li>
                 <h3>Voucher</h3>
              </li>
-            <li v-for="voucher in voucherList">
+            <li v-for="voucher in voucherList" class="m-top">
                
                {{ voucher }}
 
@@ -99,15 +101,23 @@ export default {
 
          <h1 class="center">Stay in the loop</h1>
          <p class="center">Sign up to receive up to date news and offers directly in your inbox:</p>
-         <input type="text" class="center">
-         <button class="center">subscribe</button>
-         <ul class="flex ">
+         <div class="center m-top">
+            <input type="text">
+         </div>
+        
+         <button class="center m-top">subscribe</button>
+          <div class="center">
+            <ul class="flex logo-ul m-top">
             <li>logo</li>
             <li>logo</li>
             <li>logo</li>
             <li>logo</li>
             <li>logo</li>
          </ul>
+
+          </div>
+         
+      
 
       </div>
 
@@ -131,6 +141,7 @@ export default {
 
  li {
     font-size: 1rem;
+    border-bottom: solid 1px white;
  }
 
  .ul-container{
@@ -158,4 +169,15 @@ export default {
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
  }
+
+ .logo-ul {
+   justify-content: center;
+  
+ }
+
+ .m-top {
+   margin-top: 1rem;
+ }
+
+
 </style>
