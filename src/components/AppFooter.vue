@@ -12,7 +12,21 @@ export default {
                          "Sides",
                        "Desserts",
                          "Beverages",
-                           "Specials",]
+                           "Specials",],
+
+        navigateList : [
+
+               "Home", "Alternate Home", "Menu", "About", "News", "Contact us", "Cart",
+
+        ],
+
+        informationList : ["My Account", "Terms Of Service", "Privacy Policy"],
+
+        hoursList : ["Mon - 10AM to 11PM", "Tue - 10AM to 11PM","Wen - 10AM to 11PM","Thu - 10AM to 11PM","Fri - 10AM to 11PM",
+        "Sat - 10AM to 11PM","Sun - 10AM to 11PM",
+      ]
+
+
       }
     }
 }
